@@ -22,59 +22,59 @@ constructor(props) {
 
   render() {
     return (
-          <div className="col-md-12 pl-5 pr-5 pt-3">
-	          <div className="row">
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-      				<div className="col-md-2 p-2" id="card">
-    		            <CardProduct />
-    		            <BtnCard />
-        			</div>
-              <h1>Hello, world!!!</h1>
-	          </div>
-	        </div>
+      <div className="col-md-12 pl-5 pr-5 pt-3">
+        <div className="row">
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+  				<div className="col-md-2 p-2" id="card">
+		            <CardProduct />
+		            <BtnCard />
+    			</div>
+          <h1>Hello, world!!!</h1>
+        </div>
+      </div>
     );
   }
 }

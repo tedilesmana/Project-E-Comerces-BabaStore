@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Project-E-Comerces-BabaStore/static/css/main.8ce457bf.chunk.css",
-    "main.js": "/Project-E-Comerces-BabaStore/static/js/main.37265568.chunk.js",
-    "main.js.map": "/Project-E-Comerces-BabaStore/static/js/main.37265568.chunk.js.map",
+    "main.css": "/Project-E-Comerces-BabaStore/static/css/main.4dd1a22d.chunk.css",
+    "main.js": "/Project-E-Comerces-BabaStore/static/js/main.70dc7b56.chunk.js",
+    "main.js.map": "/Project-E-Comerces-BabaStore/static/js/main.70dc7b56.chunk.js.map",
     "runtime-main.js": "/Project-E-Comerces-BabaStore/static/js/runtime-main.e99f2050.js",
     "runtime-main.js.map": "/Project-E-Comerces-BabaStore/static/js/runtime-main.e99f2050.js.map",
     "static/css/2.2ab6b6be.chunk.css": "/Project-E-Comerces-BabaStore/static/css/2.2ab6b6be.chunk.css",
-    "static/js/2.5b4ee4a9.chunk.js": "/Project-E-Comerces-BabaStore/static/js/2.5b4ee4a9.chunk.js",
-    "static/js/2.5b4ee4a9.chunk.js.map": "/Project-E-Comerces-BabaStore/static/js/2.5b4ee4a9.chunk.js.map",
+    "static/js/2.91c83ca4.chunk.js": "/Project-E-Comerces-BabaStore/static/js/2.91c83ca4.chunk.js",
+    "static/js/2.91c83ca4.chunk.js.map": "/Project-E-Comerces-BabaStore/static/js/2.91c83ca4.chunk.js.map",
     "index.html": "/Project-E-Comerces-BabaStore/index.html",
-    "precache-manifest.5effe9b1c27e144398d451834ff8e9b0.js": "/Project-E-Comerces-BabaStore/precache-manifest.5effe9b1c27e144398d451834ff8e9b0.js",
+    "precache-manifest.b7c738028c0da80526f19278212a08cd.js": "/Project-E-Comerces-BabaStore/precache-manifest.b7c738028c0da80526f19278212a08cd.js",
     "service-worker.js": "/Project-E-Comerces-BabaStore/service-worker.js",
     "static/css/2.2ab6b6be.chunk.css.map": "/Project-E-Comerces-BabaStore/static/css/2.2ab6b6be.chunk.css.map",
-    "static/css/main.8ce457bf.chunk.css.map": "/Project-E-Comerces-BabaStore/static/css/main.8ce457bf.chunk.css.map",
+    "static/css/main.4dd1a22d.chunk.css.map": "/Project-E-Comerces-BabaStore/static/css/main.4dd1a22d.chunk.css.map",
     "static/media/mdb.css": "/Project-E-Comerces-BabaStore/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/all.min.css": "/Project-E-Comerces-BabaStore/static/media/fa-solid-900.c2801fb4.svg"
+    "static/media/all.min.css": "/Project-E-Comerces-BabaStore/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/product-1.png": "/Project-E-Comerces-BabaStore/static/media/product-1.d63d9eff.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e99f2050.js",
     "static/css/2.2ab6b6be.chunk.css",
-    "static/js/2.5b4ee4a9.chunk.js",
-    "static/css/main.8ce457bf.chunk.css",
-    "static/js/main.37265568.chunk.js"
+    "static/js/2.91c83ca4.chunk.js",
+    "static/css/main.4dd1a22d.chunk.css",
+    "static/js/main.70dc7b56.chunk.js"
   ]
 }

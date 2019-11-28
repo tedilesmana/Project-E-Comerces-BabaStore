@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Project-E-Comerces-BabaStore/precache-manifest.5effe9b1c27e144398d451834ff8e9b0.js"
+  "/Project-E-Comerces-BabaStore/precache-manifest.b7c738028c0da80526f19278212a08cd.js"
 );
 
 self.addEventListener('message', (event) => {

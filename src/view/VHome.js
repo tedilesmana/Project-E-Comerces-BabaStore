@@ -72,7 +72,6 @@ constructor(props) {
 		            <CardProduct />
 		            <BtnCard />
     			</div>
-          <h1>Hello, world!!!</h1>
         </div>
       </div>
     );

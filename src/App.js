@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Headnav from './component/template/navigasi/Headnav';
 import Navbar from './component/template/navigasi/Navbar';
 // import VCart from './view/VCart';
-// import VLogin from './view/VLogin';
+import VLogin from './view/VLogin';
 import VHome from './view/VHome.js';
 import { Switch, Route } from "react-router-dom";
 
@@ -12,11 +12,10 @@ class App extends Component {
       <div>
         <Headnav />
         <Navbar />
-        <VHome />
         <Switch>
-          <Route path="Project-E-Comerces-BabaStore" exact ></Route>
+          <Route path="/" exact ><VHome /></Route>
           {/*<Route path="/mycart"><VCart /></Route>*/}
-          {/*<Route path="/login"><VLogin/></Route>*/}
+          <Route path="/login"><VLogin/></Route>
         </Switch>
       </div>
     );

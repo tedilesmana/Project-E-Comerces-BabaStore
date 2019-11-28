@@ -16,7 +16,7 @@ render() {
   return (
       <MDBNavbar className="bg-success" dark expand="md">
         <MDBNavbarBrand>
-          <MDBNavLink to="Project-E-Comerces-BabaStore">
+          <MDBNavLink to="/">
             <strong className="white-text"><MDBIcon icon="home" /></strong>
           </MDBNavLink>
         </MDBNavbarBrand>

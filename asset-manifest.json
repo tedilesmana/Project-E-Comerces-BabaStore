@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Project-E-Comerces-BabaStore/static/css/main.143fe067.chunk.css",
+    "main.js": "/Project-E-Comerces-BabaStore/static/js/main.ac9df87c.chunk.js",
+    "main.js.map": "/Project-E-Comerces-BabaStore/static/js/main.ac9df87c.chunk.js.map",
+    "runtime-main.js": "/Project-E-Comerces-BabaStore/static/js/runtime-main.e99f2050.js",
+    "runtime-main.js.map": "/Project-E-Comerces-BabaStore/static/js/runtime-main.e99f2050.js.map",
+    "static/css/2.2ab6b6be.chunk.css": "/Project-E-Comerces-BabaStore/static/css/2.2ab6b6be.chunk.css",
+    "static/js/2.3604fd7d.chunk.js": "/Project-E-Comerces-BabaStore/static/js/2.3604fd7d.chunk.js",
+    "static/js/2.3604fd7d.chunk.js.map": "/Project-E-Comerces-BabaStore/static/js/2.3604fd7d.chunk.js.map",
+    "index.html": "/Project-E-Comerces-BabaStore/index.html",
+    "precache-manifest.42b0fc820fd603c25906d87d96f4fd41.js": "/Project-E-Comerces-BabaStore/precache-manifest.42b0fc820fd603c25906d87d96f4fd41.js",
+    "service-worker.js": "/Project-E-Comerces-BabaStore/service-worker.js",
+    "static/css/2.2ab6b6be.chunk.css.map": "/Project-E-Comerces-BabaStore/static/css/2.2ab6b6be.chunk.css.map",
+    "static/css/main.143fe067.chunk.css.map": "/Project-E-Comerces-BabaStore/static/css/main.143fe067.chunk.css.map",
+    "static/media/mdb.css": "/Project-E-Comerces-BabaStore/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/Project-E-Comerces-BabaStore/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/product-1.png": "/Project-E-Comerces-BabaStore/static/media/product-1.d63d9eff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e99f2050.js",
+    "static/css/2.2ab6b6be.chunk.css",
+    "static/js/2.3604fd7d.chunk.js",
+    "static/css/main.143fe067.chunk.css",
+    "static/js/main.ac9df87c.chunk.js"
+  ]
+}

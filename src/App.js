@@ -13,7 +13,7 @@ class App extends Component {
         <Headnav />
         <Navbar />
         <Switch>
-          <Route path="/" exact ><VHome /></Route>
+          <Route path="Project-E-Comerces-BabaStore/" exact ><VHome /></Route>
           {/*<Route path="/mycart"><VCart /></Route>*/}
           {/*<Route path="/login"><VLogin/></Route>*/}
         </Switch>

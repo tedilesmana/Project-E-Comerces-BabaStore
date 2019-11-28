@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse } from "mdbreact";
-import '../style/Headnav.css';
+import '../../../style/Headnav.css';
 
 class Headnav extends Component {
 state = {

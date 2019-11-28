@@ -1,0 +1,16 @@
+#search{
+	display: flex;
+}
+
+#search .search input{
+	width: 100%;
+}
+
+.text-icon{
+	font-size: 12px;
+	text-align: center;
+}
+
+#user{
+	text-align: center;
+}

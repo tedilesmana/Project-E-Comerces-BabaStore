@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
 import '../../../style/Navbar.css';
 
@@ -15,9 +15,11 @@ toggleCollapse = () => {
 render() {
   return (
       <MDBNavbar className="bg-success" dark expand="md">
+        <MDBNavbarBrand>
           <MDBNavLink to="/">
-            <strong className="white-text"><MDBIcon icon="home" /></strong>
+            <strong className="white-text"><MDBIcon className="brand" icon="home" /></strong>
           </MDBNavLink>
+        </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
@@ -41,13 +43,13 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-icon" to="#!">
+              <MDBNavLink className="waves-effect waves-light text-icon" to="Nama">
                 <MDBIcon far icon="heart" />
                 <div>Favorite</div>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-icon" to="#!">
+              <MDBNavLink className="waves-effect waves-light text-icon" to="Alamat">
                 <MDBIcon far icon="bell" />
                 <div>Notification</div>
               </MDBNavLink>

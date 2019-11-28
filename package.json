@@ -44,7 +44,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tedilesmana/Project-E-Comerces-BabaStore.git"

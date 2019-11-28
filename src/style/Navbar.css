@@ -2,6 +2,10 @@
 	display: flex;
 }
 
+.brand{
+	font-size: 30px;
+}
+
 #search .search input{
 	width: 100%;
 }

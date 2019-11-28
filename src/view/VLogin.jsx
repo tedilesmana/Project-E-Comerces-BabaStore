@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import CardProduct from '../component/home/CardProduct';
-import BtnCard from '../component/home/BtnCard';
+import FormLogin from '../component/login/FormLogin.js'
 
 class VLogin extends Component {
 
@@ -24,7 +23,9 @@ constructor(props) {
     return (
       <div className="col-md-12 pl-5 pr-5 pt-3">
         <div className="row">
-          <h1>Hello, world!!!</h1>
+          <div className="card col-md-4 offset-md-4 p-4 mt-5">
+            <FormLogin />
+          </div>
         </div>
       </div>
     );

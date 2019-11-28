@@ -1,21 +1,31 @@
 import React from 'react';
-import CardProduct from '../component/CardProduct';
+import CardProduct from '../component/home/CardProduct';
 import { MDBCollapse } from "mdbreact";
 
-export default class VCart extends React.Component {
+class VCart extends React.Component {
 
 	constructor(props) {
 		super(props);
 		this.state = {
-			collapseID: ""
+			collapseID: "basicCollapse"
 		}
 	}
 
 	toggleCollapse = collapseID => () => {
-	  this.setState(prevState => ({
-	    collapseID: prevState.collapseID !== collapseID ? collapseID : ""
-	  }));
+	  	this.setState({
+	  		collapseID: ""
+	  	});
+
+	  	setTimeout(
+		    function() {
+		        this.setState(prevState => ({
+		    		collapseID: prevState.collapseID !== collapseID ? collapseID : ""
+		  		}))
+		    }.bind(this),
+		    500
+		);
 	}
+
 
 	render() {
 		return (
@@ -68,3 +78,5 @@ export default class VCart extends React.Component {
 		);
 	}
 }
+
+export default  VCart;

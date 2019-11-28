@@ -55,7 +55,7 @@ render() {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-icon" to="/">
+              <MDBNavLink className="waves-effect waves-light text-icon" to="mycart">
                 <MDBIcon icon="shopping-basket" />
                 <div>My Cart</div>
               </MDBNavLink>

@@ -12,8 +12,9 @@ class App extends Component {
       <div>
         <Headnav />
         <Navbar />
+        <VHome />
         <Switch>
-          <Route path="Project-E-Comerces-BabaStore" exact ><VHome /></Route>
+          <Route path="Project-E-Comerces-BabaStore" exact ></Route>
           {/*<Route path="/mycart"><VCart /></Route>*/}
           {/*<Route path="/login"><VLogin/></Route>*/}
         </Switch>

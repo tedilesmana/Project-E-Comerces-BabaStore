@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
-import CardProduct from '../component/CardProduct';
-import BtnCard from '../component/BtnCard';
+import CardProduct from '../component/home/CardProduct';
+import BtnCard from '../component/home/BtnCard';
 
 class VHome extends Component {
 
-super(props);
 
-	this.state = {
+constructor(props) {
+        super(props);
+        this.state = {
+        }
+    }
+// super(props)
+
+	// this.state = {
 		// name:''
-	}
+	// }
 
 	// this.onSubmit = this.onSubmit.bind(this);
 	// this.handleChange = this.handleChange.bind(this);
-}
+// }
 
   render() {
     return (

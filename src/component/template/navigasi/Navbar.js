@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
+import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
 import '../../../style/Navbar.css';
 
@@ -15,11 +15,9 @@ toggleCollapse = () => {
 render() {
   return (
       <MDBNavbar className="bg-success" dark expand="md">
-        <MDBNavbarBrand>
           <MDBNavLink to="/">
             <strong className="white-text"><MDBIcon icon="home" /></strong>
           </MDBNavLink>
-        </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>

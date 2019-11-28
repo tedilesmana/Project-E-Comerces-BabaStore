@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
@@ -15,9 +15,9 @@ global.jQuery = $;
 
 
 ReactDOM.render(
-	<Router>
+	<HashRouter basename="/">
 		<App />
-	</Router>
+	</HashRouter>
 	, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

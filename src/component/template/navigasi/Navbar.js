@@ -16,7 +16,7 @@ render() {
   return (
       <MDBNavbar className="bg-success" dark expand="md">
         <MDBNavbarBrand>
-          <MDBNavLink to="home">
+          <MDBNavLink to="/">
             <strong className="white-text"><MDBIcon icon="home" /></strong>
           </MDBNavLink>
         </MDBNavbarBrand>
@@ -55,7 +55,7 @@ render() {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-icon" to="mycart">
+              <MDBNavLink className="waves-effect waves-light text-icon" to="/">
                 <MDBIcon icon="shopping-basket" />
                 <div>My Cart</div>
               </MDBNavLink>

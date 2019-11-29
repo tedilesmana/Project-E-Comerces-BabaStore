@@ -12,12 +12,6 @@ class VUploadProduk extends Component {
 		}
 	}
 
-	// handleRemove = (data) = {
-	// 	axios.delete(`http://localhost:3004/posts/${data}`).then((res) => {
-	// 		this.getPostApi()
-	// 	})
-	// }
-
 	handleTambahProduk = (e) => {
 		let val = e.target.value;
 		let name_val = e.target.name;

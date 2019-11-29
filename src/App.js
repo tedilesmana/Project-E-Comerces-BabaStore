@@ -9,6 +9,7 @@ import Alamat from './Alamat';
 import VFavorite from './view/VFavorite';
 import VNotifikasi from './view/VNotifikasi';
 import VUploadProduk from './view/VUploadProduk';
+import VMyProduk from './view/VMyProduk';
 import { Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
           <Route path="/register" ><VRegister /></Route>
           <Route path="/notifikasi" ><VNotifikasi /></Route>
           <Route path="/upload_produk" ><VUploadProduk /></Route>
+          <Route path="/myproduk" ><VMyProduk /></Route>
         </Switch>
       </div>
     );

@@ -6,9 +6,9 @@ const BtnPill = (props) => {
   return (
       <div id="btn-pill">
         <span className="bg-icon">
-          <Icon className="fas fa-dollar-sign"></Icon>
+          <Icon className={props.icon} id="icon"></Icon>
         </span>
-        <span className="label">BELI</span>
+        <span className="label">{props.label}</span>
       </div>
   )
 }

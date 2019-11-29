@@ -8,9 +8,15 @@
 	top: 70%;
 	display: flex;
 	align-items: center;
+	font-weight: bold;
+	cursor: pointer;
 }
 
-#btn-pill .bg-icon .fa-dollar-sign{
+#btn-pill:hover{
+	opacity: 0.5;
+}
+
+#btn-pill .bg-icon #icon{
 	border: 2px solid white;
 	border-radius: 50%;
 	width: 25px;
@@ -19,5 +25,5 @@
 	align-items: center;
 	justify-content: center;
 	margin: 5px;
-	font-size: 14px;
+	font-size: 12px;
 }

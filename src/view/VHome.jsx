@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardProduct from '../component/home/CardProduct';
 import BtnCard from '../component/home/BtnCard';
+import BtnPill from '../component/reusable/BtnPill';
 
 class VHome extends Component {
 
@@ -27,50 +28,62 @@ constructor(props) {
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
   				<div className="col-md-2 p-2" id="card">
 		            <CardProduct />
 		            <BtnCard />
+                <BtnPill />
     			</div>
         </div>
       </div>

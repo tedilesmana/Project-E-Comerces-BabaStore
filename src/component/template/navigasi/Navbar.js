@@ -43,13 +43,13 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-icon" to="Nama">
+              <MDBNavLink className="waves-effect waves-light text-icon" to="favorite">
                 <MDBIcon far icon="heart" />
                 <div>Favorite</div>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-icon" to="Alamat">
+              <MDBNavLink className="waves-effect waves-light text-icon" to="notifikasi">
                 <MDBIcon far icon="bell" />
                 <div>Notification</div>
               </MDBNavLink>

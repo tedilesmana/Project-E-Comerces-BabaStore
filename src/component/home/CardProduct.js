@@ -5,7 +5,7 @@ import { MDBCard, MDBCardBody, MDBCardImage, MDBCardText } from 'mdbreact';
 const CardProduct = (props) => {
   return (
       <MDBCard>
-        <MDBCardImage id="img-card" className="img-fluid" src={require('../../assets/img/product-1.png')} waves />
+        <MDBCardImage id="img-card" className="img-fluid" src={props.img} waves />
         <MDBCardBody>
           	<MDBCardText className="">
             <b>{props.desc}</b>

@@ -29,10 +29,31 @@ render() {
                   <div className="d-none d-md-inline">Kategori</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropdown-default mt-3">
-                  <MDBDropdownItem href="#!">Pakaian</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Elektronik</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Furniture</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Aksesoris</MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="profile">
+                      Pakaian
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="profile">
+                      Sepatu
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="profile">
+                      Laptop
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="profile">
+                      Gadget
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
@@ -62,14 +83,36 @@ render() {
             </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
-                <MDBDropdownToggle nav caret id="user" className="ml-2" >
+                <MDBDropdownToggle nav caret id="menu-admin" className="ml-4">
+                  <b className="mr-2 font-weight-bold label-admin">Admin</b> 
                   <MDBIcon icon="user" />
                 </MDBDropdownToggle>
-                <MDBDropdownMenu right basic className="mt-3">
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                <MDBDropdownMenu right basic className="mt-4">
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="profile">
+                      Profile
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="myproduk">
+                      My Product
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="upload_produk">
+                      Upload Product Baru
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
+                  <MDBDropdownItem >
+                    <MDBNavLink className="text-dark" to="logout">
+                      Logout
+                    </MDBNavLink>
+                  </MDBDropdownItem>
+
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>

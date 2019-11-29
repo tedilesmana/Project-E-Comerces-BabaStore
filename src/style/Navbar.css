@@ -15,6 +15,14 @@
 	text-align: center;
 }
 
-#user{
+.label-admin{
+	position: absolute;
+	bottom: -20px;
+}
+
+#menu-admin{
+	display: flex;
+	justify-content: center;
 	text-align: center;
+	position: relative;
 }

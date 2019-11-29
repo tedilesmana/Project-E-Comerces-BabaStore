@@ -41,72 +41,18 @@ componentDidMount(){
   render() {
     return (
       <div className="col-md-12 pl-5 pr-5 pt-3">
-      {
-        this.state.post.map(post => {
-          return <CardProduct key={post.id} title={post.title} desc={post.body} />
-        })
-      }
         <div className="row">
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
-  				<div className="col-md-2 p-2" id="card">
-		            <CardProduct />
-		            <BtnCard />
-                <BtnPill />
-    			</div>
+  				
+		            {
+                  this.state.post.map(post => {
+                  return  <div className="col-md-2 p-2" id="card" key={post.id} >
+                            <CardProduct title={post.nama_produk} desc={post.harga_produk} img={post.image_produk} />
+                            <BtnCard />
+                            <BtnPill />
+                          </div>
+                  })
+                }
+		         
         </div>
       </div>
     );

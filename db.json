@@ -1,6 +1,17 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "body": "typicode" }
+    { 
+  	  "id": 1, 
+      "nama_produk": "I-PHONE", 
+  		"harga_produk": "2.000.000", 
+  		"image_produk": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/29/42558429/42558429_fc058448-203b-4671-8eec-bae73a87ae20_674_674.jpg" 
+	  },
+    { 
+      "id": 2, 
+      "nama_produk": "LOL-PHONE", 
+      "harga_produk": "1.000.000", 
+      "image_produk": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/medium//90/MTA-3012992/xiaomi_xiaomi-redmi-note-7-smartphone--32gb--3gb--bnib_full09.jpg" 
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }

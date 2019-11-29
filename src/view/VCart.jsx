@@ -37,9 +37,11 @@ class VCart extends React.Component {
 	}
 
 	Minus (){
-	    this.setState({
-	      value: this.state.value - 1
-	    });
+		if (this.state.value>0){
+		    this.setState({
+		      value: this.state.value - 1
+		    });
+		}
 		// if (this.state.value>0) {
 		//     this.setState({
 		//       value: this.state.value - 1

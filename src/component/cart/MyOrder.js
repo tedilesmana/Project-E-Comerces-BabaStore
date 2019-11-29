@@ -1,11 +1,28 @@
 import React from 'react';
+import SelectInput from '../reusable/SelectInput'
+import RadioBtn from '../reusable/RadioBtn'
+import InputText from '../reusable/InputText'
 
 const MyOrder = (props) => {
   return (
       <div>
-        <button className="btn btn-dark" onClick={props.Plus}>+</button>
-        <input type="text" value={props.value} readOnly />
-        <button className="btn btn-dark" onClick={props.Minus}>-</button>
+        <div className="col-md-6">
+          <SelectInput />
+        </div>
+
+        <div className="col-md-6">
+          <RadioBtn />
+        </div>
+
+        <div className="counter">
+          <button className="btn btn-dark" onClick={props.Plus}>+</button>
+          <InputText value={props.value} />
+          <button className="btn btn-dark" onClick={props.Minus}>-</button>
+        </div>
+
+        <div className="total-harga">
+          <h4><b>Total Harga : Rp.2000.000-</b></h4>
+        </div>
       </div>
   )
 }

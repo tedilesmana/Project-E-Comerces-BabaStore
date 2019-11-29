@@ -27,7 +27,7 @@ render() {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light text-dark" to="#!">
+              <MDBNavLink className="waves-effect waves-light text-dark" to="register">
                 Register
               </MDBNavLink>
             </MDBNavItem>

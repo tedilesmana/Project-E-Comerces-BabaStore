@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd6183e47ca40130200292a73e901f7c",
+    "revision": "9c6f4ba2f3a55faaba76532909a245b7",
     "url": "/Project-E-Comerces-BabaStore/index.html"
   },
   {
-    "revision": "b7c3ab89b1a8d43737fa",
+    "revision": "1ca053995b6a912ba633",
     "url": "/Project-E-Comerces-BabaStore/static/css/2.2ab6b6be.chunk.css"
   },
   {
-    "revision": "261e013b2ef9528a1b76",
+    "revision": "6b463c84aaebd63a882f",
     "url": "/Project-E-Comerces-BabaStore/static/css/main.4dd1a22d.chunk.css"
   },
   {
-    "revision": "b7c3ab89b1a8d43737fa",
-    "url": "/Project-E-Comerces-BabaStore/static/js/2.91c83ca4.chunk.js"
+    "revision": "1ca053995b6a912ba633",
+    "url": "/Project-E-Comerces-BabaStore/static/js/2.41174d7e.chunk.js"
   },
   {
-    "revision": "261e013b2ef9528a1b76",
-    "url": "/Project-E-Comerces-BabaStore/static/js/main.70dc7b56.chunk.js"
+    "revision": "6b463c84aaebd63a882f",
+    "url": "/Project-E-Comerces-BabaStore/static/js/main.8d9fc4bd.chunk.js"
   },
   {
     "revision": "245d3c469434891bd447",

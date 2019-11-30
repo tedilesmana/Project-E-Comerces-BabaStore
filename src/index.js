@@ -15,7 +15,7 @@ global.jQuery = $;
 
 
 ReactDOM.render(
-	<HashRouter basename="/">
+	<HashRouter basename="/" > 
 		<App />
 	</HashRouter>
 	, document.getElementById('root'));

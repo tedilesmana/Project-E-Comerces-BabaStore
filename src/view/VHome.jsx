@@ -46,7 +46,7 @@ componentDidMount(){
 		            {
                   this.state.post.map(post => {
                   return  <div className="col-md-2 p-2" id="card" key={post.id} >
-                            <CardProduct title={post.nama_produk} desc={post.harga_produk} img={post.image_produk} />
+                            <CardProduct title={post.nama_produk} harga={post.harga_produk} img={post.image_produk} />
                             <BtnCard />
                             <BtnPill 
                             label="BELI"

@@ -8,9 +8,9 @@ const CardProduct = (props) => {
         <MDBCardImage id="img-card" className="img-fluid" src={props.img} waves />
         <MDBCardBody>
           	<MDBCardText className="">
-            <b>{props.desc}</b>
+            <b>{props.title}</b>
             <br/>
-            Harga: Rp.{props.title}-
+            Harga: Rp.{props.harga}-
           	</MDBCardText>
         </MDBCardBody>
       </MDBCard>

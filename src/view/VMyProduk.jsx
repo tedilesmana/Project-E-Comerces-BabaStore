@@ -37,8 +37,8 @@ handleHapus = (e, data) => {
 	})
 }
 
-handleEdit = (e, data) => {
-	e.preventDefault();
+// handleEdit = (e, data) => {
+// 	e.preventDefault();
 	// this.setState({
 	//       id: data.id
 	//  }, () => {
@@ -46,7 +46,7 @@ handleEdit = (e, data) => {
 	//  })
 	// return <Redirect to='/edit_produk' />
 	
-}
+// }
 
 // handleValue = (idValue) => {
 // 	console.log(idValue);

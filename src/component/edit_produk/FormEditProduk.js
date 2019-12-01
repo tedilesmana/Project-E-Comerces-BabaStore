@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
 import axios from 'axios';
-// import { Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 class FormEditProduk extends Component {
 
@@ -9,21 +9,24 @@ constructor() {
         super();
         this.state = {
           produk:{
+                  id:'',
                   nama_produk:'',
                   harga_produk:'',
                   image_produk:''
-                  }
+                  },
+          redirect: false
         }
     }
 
 componentDidMount(){
-  axios.get('http://localhost:3004/posts/1575063907508')
+  axios.get(`http://localhost:3004/posts/${this.props.idValue}`)
   .then((result) => {
     // console.log(result);
       this.setState({
           produk:result.data
       })
   })
+    // console.log(this.props.idValue);
 
   // return <Redirect to='/edit_produk' />
   // fetch('https://jsonplaceholder.typicode.com/posts')
@@ -41,15 +44,35 @@ handleChang(e) {
   this.setState({
       produk:val_produk
   }, () => {
+    // console.log(this.state.produk);
+  })
+}
+
+handleSubmit = (e, data) => {
+  e.preventDefault();
+    this.putDataToApi(data);
+}
+
+putDataToApi = (data) => {
+  axios.put(`http://localhost:3004/posts/${data}`, this.state.produk).then((res) => {
+      this.setState({ redirect: true })
   })
 }
 
 render(){
+
+const { redirect } = this.state;
+
+     if (redirect) {
+       return <Redirect to='/myproduk'/>;
+     }
+
+
     return (
     <MDBContainer>
       <MDBRow>
         <MDBCol>
-          <form onSubmit={this.handleSubmit}>
+          <form onSubmit={e => this.handleSubmit(e, this.state.produk.id)}>
             <p className="h4 text-center mb-4">Edit Data Produk</p>
             
             <hr/>
@@ -107,3 +130,4 @@ render(){
 }
 
 export default FormEditProduk;
+

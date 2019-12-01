@@ -4,12 +4,37 @@ import { useParams } from "react-router-dom";
 import FormEditProduk from '../component/edit_produk/FormEditProduk'
 
 
-function BlogPost() {
+function BlogPost(props) {
   let { id } = useParams();
-  return <div><FormEditProduk idValue={id} /></div>;
+  return <div>
+  			<FormEditProduk 
+  				idValue={id} 
+  			/>
+  		</div>;
 }
 
 class VEditProduk extends Component {
+	state = {
+		data:[]
+	}
+
+	postDataToApi = () => {
+
+	}
+
+  render() {
+    return (
+	    <div>
+	      <div className="card col-md-4 offset-md-4 mt-5 pt-5 pb-5">
+	      	<div><BlogPost /></div>
+	      </div>
+	     </div>
+    );
+  }
+}
+
+export default VEditProduk;
+
 	// state = {
 	// 	produk:{
 	// 		id : 1,
@@ -50,18 +75,4 @@ class VEditProduk extends Component {
 
 
 
-
-
-  render() {
-    return (
-	    <div>
-	      <div className="card col-md-4 offset-md-4 mt-5 pt-5 pb-5">
-	      	<div><BlogPost /></div>
-	      </div>
-	     </div>
-    );
-  }
-}
-
-export default VEditProduk;
 

@@ -67,7 +67,7 @@ handleEdit = (e, data) => {
                             	<BtnPill label="Hapus" icon="fas fa-trash"/>
                             </div>
 
-                            <Link to="edit_produk" className="update">
+                            <Link to={"edit_produk/"+post.id} className="update">
                              {/*onClick={e => this.handleEdit(e, post)}*/}
                             	<BtnPill label="Edit" icon="fas fa-edit" />
                             </Link>

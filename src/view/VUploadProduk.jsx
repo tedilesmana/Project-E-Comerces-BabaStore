@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Redirect } from 'react-router-dom';
 import FormUploadProduk from '../component/upload_produk/FormUploadProduk'
 
 class VUploadProduk extends Component {
@@ -8,7 +9,8 @@ class VUploadProduk extends Component {
 			id : 1,
 			nama_produk : '',
 			harga_produk : '',
-			image_produk : ''
+			image_produk : '',
+			redirect: false
 		}
 	}
 
@@ -36,12 +38,20 @@ class VUploadProduk extends Component {
 	postDataToApi = () => {
 		axios.post('http://localhost:3004/posts', this.state.produk).then((res) => {
 			console.log(res);
+			this.setState({ redirect: true })
 		}, (err) => {
 			console.log(err);
 		})
 	}
 
-  render() {
+   render() {
+
+   	const { redirect } = this.state;
+
+     if (redirect) {
+       return <Redirect to='/myproduk'/>;
+     }
+
     return (
 	    <div>
 	      <div className="card col-md-4 offset-md-4 mt-5 pt-5 pb-5">
